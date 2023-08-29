@@ -12,7 +12,7 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 ## FizzBuzz
 
-- **Solution:** [FizzBuzz.py](FizzBuzz/FizzBuzz.py)
+- **Solution:** [FizzBuzz.js](/FizzBuzz/FizzBuzz.js)
 - **Description:** Classic FizzBuzz problem implementation.
 
 ## LeetCode
