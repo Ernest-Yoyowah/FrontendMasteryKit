@@ -40,6 +40,6 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 ## Contact
 
-Feel free to reach out if you have any questions, suggestions, or feedback about my solutions or approach. You can contact me at [ernestniiyoyowah@gmail.com](mailto:your-email@example.com).
+Feel free to reach out if you have any questions, suggestions, or feedback about my solutions or approach. You can contact me at [ernestniiyoyowah@gmail.com](mailto:ernestniiyoyowah@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/ernestyoyowah).
 
 Thank you for visiting my repository and exploring my coding journey!
