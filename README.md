@@ -18,13 +18,13 @@ Welcome to my coding interview preparation repository! This repository is a coll
 ## LeetCode
 
 - **Problem 1**
-  - **Solution:** [solution.py](LeetCode/Problem1/solution.py)
-  - **Test Cases:** [test_cases/](LeetCode/Problem1/test_cases/)
+  - **Solution:** [solution.py](/LeetCode/Problem1/solution.py)
+  - **Test Cases:** [test_cases/](/LeetCode/Problem1/test_cases/)
   - **Description:** Detailed explanation of the problem and my approach.
 
 - **Problem 2**
-  - **Solution:** [solution.py](LeetCode/Problem2/solution.py)
-  - **Test Cases:** [test_cases/](LeetCode/Problem2/test_cases/)
+  - **Solution:** [solution.py](/LeetCode/Problem2/solution.py)
+  - **Test Cases:** [test_cases/](/LeetCode/Problem2/test_cases/)
   - **Description:** Detailed explanation of the problem and my approach.
 
 ...
@@ -35,8 +35,11 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 ## Notes
 
-- [DataStructures.md](Notes/DataStructures.md): Summary of important data structures.
-- [Algorithms.md](Notes/Algorithms.md): Overview of key algorithms.
+- [DataStructures.md](/Notes/DataStructures.md): Summary of important data structures.
+- [Algorithms.md](/Notes/Algorithms.md): Overview of key algorithms.
+- [Problem Solving Techniques](/Notes/Problem-Solving-Techniques.md): Techniques for solving coding problems effectively.
+- [Practice Problems](/Notes/Practice-Problems.md): List of coding problems for practice.
+- [Time Complexity](/Notes/TimeComplexity.md): Explanation of time complexity analysis.
 
 ## Contact
 
