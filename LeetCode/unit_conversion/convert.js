@@ -16,12 +16,12 @@ const convertUnit = () => {
     var inch;
     var cm;
 
-// accept input for feet
+    // accept input for feet
     rl.question("Enter Lenght(feet): ", (feetInput) => {
         feet = parseFloat(feetInput)
         console.log(`Lenght in feet: ${feet}`);
 
-// accept input for  inches
+    // accept input for  inches
     rl.question("Enter lenght(inches): ", (inchInput) => {
         inch =  parseFloat(inchInput)
         console.log(`Lenght in inches ${inch}`);
