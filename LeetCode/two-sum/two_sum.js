@@ -10,7 +10,6 @@ const twoSum = (nums, target) => {
         if (numIndices.has(complement)) {
             return [numIndices.get(complement), i];
         }
-
         numIndices.set(num, i);
     }
 
