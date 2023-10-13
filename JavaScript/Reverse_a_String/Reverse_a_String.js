@@ -7,13 +7,12 @@ function reverseString(str) {
     */
 
   let reversedStr = "";
-
   for (let i = str.length - 1; i >= 0; i--) {
     reversedStr += str[i];
   }
   return reversedStr;
 }
 
-const originalString = "Hello, world!";
+const originalString = "9,8,7,6,5,4,3,2,1";
 const reversedString = reverseString(originalString);
 console.log(reversedString); // Output should be "!dlrow ,olleH"
