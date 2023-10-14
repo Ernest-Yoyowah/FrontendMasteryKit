@@ -1,5 +1,10 @@
 function reverseString(str) {
   // Your code here
+  /*
+        1. initialize a variable to store reversed string
+        2. loop to iterate through
+        3. append char to the storage decleared
+      */
 
   let reversedStr = "";
 
