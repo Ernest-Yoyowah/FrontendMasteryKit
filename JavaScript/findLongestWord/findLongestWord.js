@@ -9,7 +9,6 @@ function findLongestWord(str) {
       longestWord = word;
     }
   }
-
   return longestWord;
 }
 
