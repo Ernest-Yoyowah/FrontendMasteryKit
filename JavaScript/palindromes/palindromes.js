@@ -1,6 +1,5 @@
 function isPalindrome(str) {
   // Your code here
-
   str = str.replace(/\s/g, "").toLowerCase();
   return str == str.split("").reverse().join("");
 }
