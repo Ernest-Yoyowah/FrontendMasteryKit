@@ -1,6 +1,5 @@
 function reverseArray(arr) {
   // Your code here
-
   let reversedArr = [];
 
   for (let i = arr.length - 1; i >= 0; i--) {
