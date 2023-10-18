@@ -11,6 +11,6 @@ function findMaxNumber(numbers) {
   return maxNum;
 }
 
-const testArray = [8, 3, 12, 6, 21, 5, 17];
+const testArray = [8, 3, 12, 6, 21, 5, 15, 45.3, 2.54];
 
 console.log(findMaxNumber(testArray)); // Should return 21
