@@ -8,8 +8,10 @@ function twoSum(nums, target) {
     if (map.has(num2)) {
       return [i, map.get(num2)];
     }
+
     map.set(num1, i);
   }
+
   return [];
 }
 
