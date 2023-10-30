@@ -1,9 +1,8 @@
 function findMaxNumber(numbers) {
   // Your code here
-
   let maxNum = numbers[0];
 
-  for (let i = 1; i < numbers.length; i++) {
+  for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > maxNum) {
       maxNum = numbers[i];
     }
@@ -11,6 +10,6 @@ function findMaxNumber(numbers) {
   return maxNum;
 }
 
-const testArray = [8, 3, 12, 6, 21, 5, 15, 45.3, 2.54];
-
-console.log(findMaxNumber(testArray)); // Should return 21
+// Example usage:
+console.log(findMaxNumber([10, 5, 15, 20, 3])); // Should output 20
+console.log(findMaxNumber([100, 500, 250, 750])); // Should output 750
