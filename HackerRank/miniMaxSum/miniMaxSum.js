@@ -20,4 +20,8 @@ function miniMaxSum(arr) {
 
 const arr = [1, 2, 3, 4, 5]; // Replace with your own array
 
+// max number
+const maxValue = Math.max(...arr);
+console.log(maxValue);
+
 miniMaxSum(arr);
