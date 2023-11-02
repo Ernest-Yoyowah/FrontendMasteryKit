@@ -3,6 +3,16 @@
 // Function to count the number of candles with the maximum height
 function birthdayCakeCandles(candles) {
   // Write your code here
+  const maxHeigth = Math.max(...candles);
+
+  let count = 0;
+
+  for (let i = 0; i < candles.length; i++) {
+    if (candles[i] === maxHeigth) {
+      count++;
+    }
+  }
+  return count;
 }
 
 // Replace this array with your own test data
