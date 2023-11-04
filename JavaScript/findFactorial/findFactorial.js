@@ -1,10 +1,8 @@
-function findFactorial(n) {
+function calculateFactorial(n) {
   // Your code here
-  let factorial = 1;
-  for (let i = 1; i <= n; i++) {
-    factorial *= i;
-  }
-  return factorial;
 }
 
-console.log(findFactorial(5)); // Should return 120 (5! = 5 * 4 * 3 * 2 * 1)
+// Example usage:
+const number = 5;
+const factorial = calculateFactorial(number);
+console.log(`The factorial of ${number} is:`, factorial); // This should print the factorial of the given number.
