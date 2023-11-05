@@ -9,8 +9,10 @@
  *  2. INTEGER_ARRAY b
  */
 
-function compareTriplets(a, b) {}
-// Write your code here
+function compareTriplets(a, b) {
+  // Write your code here
+}
+
 // Example usage:
 const a = [5, 6, 7];
 const b = [3, 6, 10];
