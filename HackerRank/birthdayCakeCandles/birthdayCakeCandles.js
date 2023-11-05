@@ -9,7 +9,7 @@ function birthdayCakeCandles(candles) {
   for (let i = 0; i < candles.length; i++) {
     if (candles[i] === maxheigth) count++;
   }
-
+  console.log(`Candels: ${candles}`);
   console.log(maxheigth);
   return count;
 }
