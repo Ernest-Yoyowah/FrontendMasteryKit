@@ -11,6 +11,19 @@
 
 function compareTriplets(a, b) {
   // Write your code here
+  let aliceAward = 0;
+  let bobAward = 0;
+
+  for (let i = 0; i < b.length; i++) {
+    if (a[i] > b[i]) {
+      aliceAward++;
+    } else if (a[i] < b[i]) {
+      bobAward++;
+    }
+  }
+
+  console.log(`Alice's Score: ${aliceAward}\nBob's Score: ${bobAward} `);
+  return [aliceAward, bobAward];
 }
 
 // Example usage:
@@ -18,4 +31,3 @@ const a = [5, 6, 7];
 const b = [3, 6, 10];
 
 const result = compareTriplets(a, b);
-console.log(result);
