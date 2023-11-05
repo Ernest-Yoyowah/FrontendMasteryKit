@@ -9,8 +9,11 @@ function birthdayCakeCandles(candles) {
   for (let i = 0; i < candles.length; i++) {
     if (candles[i] === maxheigth) count++;
   }
+
   console.log(`Candels: ${candles}`);
-  console.log(`The maxinum height is: ${maxheigth}`);
+  console.log(
+    `The maxinum height is: ${maxheigth}\nThe Number of candles with the maximum height are: ${count}`
+  );
   return count;
 }
 
@@ -21,4 +24,4 @@ const candles = [3, 2, 1, 3];
 const result = birthdayCakeCandles(candles);
 
 // Print the result to the console
-console.log(result);
+// console.log(result);
