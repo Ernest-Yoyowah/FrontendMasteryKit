@@ -18,4 +18,4 @@ const twoSum = (nums, target) => {
 };
 const result = twoSum(nums, target);
 console.log(result);
-console.log("Script executed successfully");
+// console.log("Script executed successfully");
