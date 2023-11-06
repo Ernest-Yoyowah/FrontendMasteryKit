@@ -4,10 +4,10 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 ## Overview
 
-- [HackerRank](#HackerRank)
-- [LeetCode](#LeetCode)
-- [JavaScript](#JavaScript)
-- [Notes](#Notes)
+- [HackerRank](/HackerRank)
+- [LeetCode](/LeetCode)
+- [JavaScript](/JavaScript)
+- [Notes](/Notes)
 - [Contact](#Contact)
 
 ## FizzBuzz
