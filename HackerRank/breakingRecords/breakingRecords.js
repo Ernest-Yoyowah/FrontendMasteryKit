@@ -18,6 +18,7 @@ function breakingRecords(scores) {
     }
   }
 
+  console.log(`Max Score: ${max_score}\nMin Score: ${min_score}`);
   return [max_score_count, min_score_count];
 }
 
