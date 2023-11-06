@@ -4,10 +4,10 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 ## Overview
 
-- [FizzBuzz](#fizzbuzz)
-- [LeetCode](#leetcode)
-- [HackerRank](#hackerrank)
-- [Notes](#notes)
+- [FizzBuzz](/FizzBuzz/FizzBuzz.js)
+- [LeetCode](/LeetCode)
+- [HackerRank](/FizzBuzz)
+- [Notes](/Notes)
 - [Contact](#contact)
 
 ## FizzBuzz
@@ -17,19 +17,28 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 ## LeetCode
 
-- **Problem 1**
-  - **Solution:** [solution.py](/LeetCode/Problem1/solution.py)
-  - **Test Cases:** [test_cases/](/LeetCode/Problem1/test_cases/)
+- **Two Sum**
+
+  - **Solution:** [solution.py](/LeetCode/two-sum/two_sum.js)
   - **Description:** Detailed explanation of the problem and my approach.
 
-- **Problem 2**
-  - **Solution:** [solution.py](/LeetCode/Problem2/solution.py)
-  - **Test Cases:** [test_cases/](/LeetCode/Problem2/test_cases/)
+- **Unit Conversion**
+  - **Solution:** [solution.py](/LeetCode/unit_conversion/convert.js)
   - **Description:** Detailed explanation of the problem and my approach.
 
 ...
 
 ## HackerRank
+
+- **Big Sum**
+
+  - **Solution:** [solution.py](/HackerRank/big_sum/bigSum.js)
+  - **Description:** Detailed explanation of the problem and my approach.
+
+- **BirthdayCakeCandles**
+
+  - **Solution:** [solution.py](/HackerRank/birthdayCakeCandles/)
+  - **Description:** Detailed explanation of the problem and my approach.
 
 - ...
 
