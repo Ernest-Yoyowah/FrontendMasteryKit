@@ -12,6 +12,7 @@ const twoSum = (nums, target) => {
     }
     numIndices.set(num, i);
   }
-  console.log("Script executed successfully");
+
   return [];
 };
+console.log("Script executed successfully");
