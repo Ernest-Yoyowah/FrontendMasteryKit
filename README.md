@@ -4,11 +4,11 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 ## Overview
 
-- [FizzBuzz](/FizzBuzz/FizzBuzz.js)
-- [LeetCode](/LeetCode)
-- [HackerRank](/FizzBuzz)
-- [Notes](/Notes)
-- [Contact](#contact)
+- [HackerRank](#HackerRank)
+- [LeetCode](#LeetCode)
+- [JavaScript](#JavaScript)
+- [Notes](#Notes)
+- [Contact](#Contact)
 
 ## FizzBuzz
 
@@ -19,12 +19,12 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 - **Two Sum**
 
-  - **Solution:** [solution.py](/LeetCode/two-sum/two_sum.js)
-  - **Description:** Detailed explanation of the problem and my approach.
+  - **Solution:** [two_sum.js](/LeetCode/TwoSum/two_sum.js)
+  - **Description:** This challenge involves finding two numbers in an array that add up to a specific target value. My solution is implemented in JavaScript, and I've provided a detailed explanation of my approach.
 
 - **Unit Conversion**
-  - **Solution:** [solution.py](/LeetCode/unit_conversion/convert.js)
-  - **Description:** Detailed explanation of the problem and my approach.
+  - **Solution:** [convert.js](/LeetCode/UnitConversion/convert.js)
+  - **Description:** In this problem, the task is to convert units of measurement. I've provided a JavaScript solution and a comprehensive explanation of the problem and my approach.
 
 ...
 
@@ -32,12 +32,12 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 - **Big Sum**
 
-  - **Solution:** [solution.py](/HackerRank/big_sum/bigSum.js)
+  - **Solution:** [bigSum.js](/HackerRank/BigSum/bigSum.js)
   - **Description:** Detailed explanation of the problem and my approach.
 
 - **BirthdayCakeCandles**
 
-  - **Solution:** [solution.py](/HackerRank/birthdayCakeCandles/)
+  - **Solution:** [birthdayCakeCandles.js](/HackerRank/BirthdayCakeCandles/birthdayCakeCandles.js)
   - **Description:** Detailed explanation of the problem and my approach.
 
 - ...
