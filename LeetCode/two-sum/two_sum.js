@@ -1,5 +1,5 @@
 const nums = [2, 7, 11, 15];
-target = 9;
+target = 13;
 
 const twoSum = (nums, target) => {
   const numIndices = new Map();
