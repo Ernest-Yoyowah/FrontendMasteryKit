@@ -24,6 +24,6 @@ function divisibleSumPairs(k, arr) {
 
 // Example usage:
 const arr = [2, 7, 5, 3, 8];
-const k = 10;
+const k = 13;
 const result = divisibleSumPairs(k, arr);
 console.log(`Count of pairs divisible by ${k}, is: ${result}`);
