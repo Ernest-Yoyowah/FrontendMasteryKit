@@ -17,7 +17,9 @@ function divisibleSumPairs(k, arr) {
         const firstPair = arr[i];
         const secondPair = arr[j];
         count++;
-        console.log(`Sum Pair: ${firstPair} and ${secondPair}`);
+        console.log(
+          `Sum Pair: ${arr.indexOf(firstPair)} and ${arr.indexOf(secondPair)}`
+        );
       }
     }
   }
