@@ -19,6 +19,7 @@ const testCases = [
   { x: 1, y: 2, z: 3 },
   { x: 1, y: 5, z: 2 },
 ];
+console.log(`x: ${x}\ny: ${y}\nz: ${z}`);
 
 for (const testCase of testCases) {
   const { x, y, z } = testCase;
