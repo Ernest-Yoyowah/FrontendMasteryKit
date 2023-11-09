@@ -22,7 +22,7 @@ const testCases = [
 
 for (const testCase of testCases) {
   const { x, y, z } = testCase;
-  console.log(`x: ${x}\ny: ${y}\nz: ${z}`);
   const result = catAndMouse(x, y, z);
   console.log(result);
 }
+// console.log(`x: ${x}\ny: ${y}\nz: ${z}`);
