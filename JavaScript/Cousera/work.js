@@ -1,4 +1,6 @@
-function count(colors) {
-  console.log(colors.length);
+try {
+  throw new Error();
+  console.log("Hello");
+} catch (err) {
+  console.log("Goodbye");
 }
-count("Red", "Purple", null);
