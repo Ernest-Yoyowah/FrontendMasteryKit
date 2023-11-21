@@ -8,6 +8,9 @@ const double = (arr) => {
   return result;
 };
 
+// let out = double(arr);
+// console.log(out);
+
 const doubleMap = (arr) => {
   return arr.map((item) => {
     return item * 2;
