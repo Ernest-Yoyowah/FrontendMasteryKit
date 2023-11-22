@@ -8,12 +8,21 @@ const user = {
 // console.log(Object.keys(user));
 
 // for of loop
-for (const detail of Object.keys(user)) {
-  //   console.log(`${detail} => ${user[detail]}`);
+for (const key of Object.keys(user)) {
+  //   console.log(`${key} => ${user[key]}`);
 }
 
 // for in loop
 
-for (const detail in user) {
-  console.log(`${detail} => ${user[detail]}`);
+for (const key in user) {
+  //   console.log(`${key}: ${user[key]}`);
 }
+
+// object.keys() method
+const keys = Object.keys(user);
+// console.log(keys);
+
+// iterate over objects
+keys.forEach((key) => {
+  console.log(` ${key} - ${user[key]}`);
+});
