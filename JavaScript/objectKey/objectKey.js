@@ -24,5 +24,15 @@ const keys = Object.keys(user);
 
 // iterate over objects
 keys.forEach((key) => {
-  console.log(` ${key} - ${user[key]}`);
+  //   console.log(` ${key} - ${user[key]}`);
 });
+
+// object.values() method
+Object.values(user).forEach((key) => {
+  //   console.log(key);
+});
+
+// object.entries() method
+
+const entries = Object.entries(user);
+console.log(entries);
