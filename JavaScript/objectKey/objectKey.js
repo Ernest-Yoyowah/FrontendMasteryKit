@@ -7,6 +7,6 @@ const user = {
 
 // console.log(Object.keys(user));
 
-for (let detail of Object.keys(user)) {
+for (const detail of Object.keys(user)) {
   console.log(`${detail} => ${user[detail]}`);
 }
