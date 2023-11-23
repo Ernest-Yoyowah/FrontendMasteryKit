@@ -1,9 +1,9 @@
 const makeError = () => {
   try {
     const name = "Ernest";
-    name = Yoyowah;
+    name = "Yoyowah";
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 };
 
