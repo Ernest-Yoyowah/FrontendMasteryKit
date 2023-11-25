@@ -8,7 +8,7 @@ function utopianTree(n) {
     if (i % 2 == 0) {
       height *= 2;
     } else {
-      height += 2;
+      height += 1; // add 1 if odd
     }
   }
   return height;
