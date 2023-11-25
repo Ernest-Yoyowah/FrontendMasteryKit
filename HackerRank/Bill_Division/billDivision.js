@@ -1,8 +1,13 @@
-bill = [1, 2, 3, 5, 4, 6, 7];
+"use strict";
 
-let out = bill.reduce((acc, val) => acc + val);
+function bonAppetit(bill, excludedItemIndex, annasContribution) {
+  // Write your code here
+}
 
-console.log(out);
+// Example usage:
+const n = 4;
+const k = 1;
+const bill = [3, 10, 2, 9];
+const b = 12;
 
-// bill.push(5);
-console.log(bill);
+bonAppetit(bill, k, b);
