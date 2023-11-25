@@ -2,6 +2,10 @@
 
 function hurdleRace(k, height) {
   // write your code here
+  let maxHurdle = Math.max(...height);
+  let minDose = maxHurdle - k;
+
+  return minDose > 0 ? minDose : 0;
 }
 
 // Example usage:
