@@ -1,7 +1,15 @@
 "use strict";
 
-function bonAppetit(bill, excludedItemIndex, annasContribution) {
+function bonAppetit(bill, k, b) {
   // Write your code here
+  let totalBill = bill.reduce((acc, val) => acc + val);
+  let actualBill = (totalBill - bill[k]) / 2;
+
+  if (actualBill === b) {
+    console.log(`Bon Appetit`);
+  } else {
+    console.log(b - actualBill);
+  }
 }
 
 // Example usage:
