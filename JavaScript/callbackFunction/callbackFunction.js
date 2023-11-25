@@ -1,8 +1,7 @@
-const myFunc = (callbackFunc) => {
-  let value = 2;
-  callbackFunc(value);
+let people = ["Ernest", "Mike", "Seth", "John"];
+
+const logPerson = (person, index) => {
+  console.log(`${index} - Hello ${person}`);
 };
 
-myFunc((value) => {
-  console.log(value);
-});
+people.forEach(logPerson);
