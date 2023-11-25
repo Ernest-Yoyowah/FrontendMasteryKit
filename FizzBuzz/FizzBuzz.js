@@ -1,4 +1,5 @@
-for (let i = 1; i < 16; i++) {
+const lenght = 15;
+for (let i = 1; i <= lenght; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
   } else if (i % 3 == 0) {
