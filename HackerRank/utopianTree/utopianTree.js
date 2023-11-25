@@ -6,9 +6,9 @@ function utopianTree(n) {
 
   for (let i = 0; i < n; i++) {
     if (i % 2 == 0) {
-      height *= 2; // doubles the height if even
+      height *= 2; // doubles the height if even(Each spring)
     } else {
-      height += 1; // add 1 if odd
+      height += 1; // add 1 if odd(Each summer)
     }
   }
   return height;
