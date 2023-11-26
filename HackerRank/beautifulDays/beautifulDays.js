@@ -11,10 +11,10 @@ function beautifulDays(i, j, k) {
     );
 
     const absoluteDifference = Math.abs(day - reversedDay);
-  }
 
-  if (absoluteDifference % k === 0) {
-    beautifulDayCount++;
+    if (absoluteDifference % k === 0) {
+      beautifulDayCount++;
+    }
   }
   return beautifulDayCount;
 }
