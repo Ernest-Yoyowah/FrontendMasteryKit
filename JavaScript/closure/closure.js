@@ -2,7 +2,7 @@ function human() {
   const name = "Ernest";
 
   // The outer function does not have access to variables declared in the inner function
-  console.log(innerText); // Error: innerText is not defined in the outer function
+  // console.log(innerText); // Error: innerText is not defined in the outer function
 
   // The inner function has access to the variable 'name' from the outer function
   function sayHi() {
