@@ -1,5 +1,5 @@
 const calculateAverage = (numbers) => {
-  const sumOFNumbers = numbers.reduce((sum, num) => sum + num, 0);
+  const sumOFNumbers = numbers.reduce((sum, num) => sum + num);
   const average = sumOFNumbers / numbers.length;
   return average;
 };
