@@ -14,4 +14,9 @@ const fullname = `Ernest Yoyowah`;
 /*
 Variables declared with the cont keyword cannot be redeclared and re-assigned
 */
-console.log(name);
+// console.log(name);
+
+let age;
+console.log(age, age + 3); // this will return undefined and NaN
+// undefined is the default value given to unassigned variables
+// NaN is given when you try to use mathematical operations on none number data types
