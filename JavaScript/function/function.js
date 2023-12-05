@@ -22,3 +22,5 @@ Function Expression
 const functionExpression = function () {
   console.log(`This is a function Expression`);
 };
+
+functionExpression();
