@@ -1,4 +1,6 @@
-// 9	<	Less than	x < y
+// Comparison Operators
+
+// precedence of 9	<	Less than	x < y
 // precedence of 9	<=	Less than or equal	x <= y
 // precedence of 9	>	Greater than	x > y
 // precedence of 9	>=	Greater than or equal	x >= Array
