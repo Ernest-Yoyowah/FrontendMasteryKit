@@ -18,3 +18,7 @@ Function Expression
 -Are not hoisted, meaning they can only be called from within the scope in which they are defined
 -Are not available until code execution reaches the line where they are defined
 */
+
+const functionExpression = function () {
+  console.log(`This is a function Expression`);
+};
