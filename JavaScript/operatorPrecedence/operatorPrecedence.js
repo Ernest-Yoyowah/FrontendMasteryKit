@@ -13,3 +13,12 @@ let postfixIncrement = 5;
 console.log(`Initial Value: ${postfixIncrement}`);
 postfixIncrement++;
 console.log(`Postfix Increment ${postfixIncrement}`);
+
+console.log(`----------------------------`);
+
+// Increment Operators
+// ++	Postfix Increment	i++
+let prefixIncrement = 5;
+console.log(`Initial Value: ${prefixIncrement}`);
+++prefixIncrement;
+console.log(`Postfix Increment ${prefixIncrement}`);
