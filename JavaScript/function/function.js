@@ -13,6 +13,7 @@ functionDeclaration();
 
 /*
 Function Expression
+- Function expressions are stored in variables
 -Do not have a name (anonymous) or can have a name (named function expression)
 -Are not hoisted, meaning they can only be called from within the scope in which they are defined
 -Are not available until code execution reaches the line where they are defined
