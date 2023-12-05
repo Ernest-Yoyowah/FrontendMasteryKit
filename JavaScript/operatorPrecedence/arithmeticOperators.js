@@ -18,3 +18,7 @@ let result = b * c;
 // precedence of 12 %	Division Remainder	10 % 5
 
 // precedence of 11	+	Addition	10 + 5
+
+// precedence of 11	-	Subtraction	10 - 5
+
+// precedence of 11	+	Concatenation	"John" + "Doe"
