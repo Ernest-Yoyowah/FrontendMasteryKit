@@ -15,4 +15,6 @@ let result = b * c;
 
 // precedence of 12	/	Division	10 / 5
 
-// precedence of %	Division Remainder	10 % 5
+// precedence of 12 %	Division Remainder	10 % 5
+
+// precedence of 11	+	Addition	10 + 5
