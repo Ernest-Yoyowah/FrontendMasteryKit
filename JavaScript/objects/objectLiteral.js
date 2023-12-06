@@ -22,3 +22,6 @@ console.log(`Year: ${user["year"]}`);
 user.major = `Bsc. Software Engineering`;
 
 console.log(`Major: ${user.major}`);
+
+// checking data type
+console.log(typeof user);
