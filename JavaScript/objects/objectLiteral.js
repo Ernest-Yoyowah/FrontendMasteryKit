@@ -4,9 +4,9 @@ const user = {
   name: `Ernest`,
   major: `Software Engineering`,
   department: `Computing Systems`,
-  level: `200`,
+  year: `200`,
 };
 user["name"] = `Nii Yoyowah`;
-user.name = `Yoyowah`;
+user.year = `2nd Year`;
 
 console.log(`Hello ${user.name}`);
