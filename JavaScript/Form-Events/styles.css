@@ -14,3 +14,11 @@ input {
   margin: 10px auto;
   padding: 4px;
 }
+
+.success {
+  border: 2px solid limegreen;
+}
+
+.failed {
+  border: 2px solid crimson;
+}
