@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
   const username = form.username.value;
   const usernamePattern = /^[a-zA-Z]{6,12}$/;
 
-  if (usernamePattern === true) {
+  if (usernamePattern.test(username) === true) {
     console.log(`Test Passed`);
   } else {
     console.log(`Test Failed: ${username} not valid`);
