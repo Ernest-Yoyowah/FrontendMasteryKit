@@ -8,8 +8,8 @@ form.addEventListener("submit", (e) => {
 
 // Testing RegEx
 
-const newName = "1Ernest";
-const pattern = /[a-zA-Z]{6,}/;
+const newName = "Ernest";
+const pattern = /^[a-zA-Z]{6,}$/;
 
 let result = pattern.test(newName);
 console.log(result);
