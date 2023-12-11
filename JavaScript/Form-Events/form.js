@@ -14,6 +14,7 @@ form.addEventListener("submit", (e) => {
     console.log(`Test Failed: ${username} not valid`);
   }
 
+  // Boolean value of result
   let result = usernamePattern.test(username);
   console.log(result);
 });
