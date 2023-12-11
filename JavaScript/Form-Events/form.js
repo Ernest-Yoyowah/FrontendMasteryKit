@@ -1,4 +1,5 @@
 const form = document.querySelector(".signup-form");
+const feedback = document.querySelector(".feedback");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -9,9 +10,11 @@ form.addEventListener("submit", (e) => {
   const usernamePattern = /^[a-zA-Z]{6,12}$/;
 
   if (usernamePattern.test(username)) {
-    console.log(`Test Passed`);
+    feedback.textContent = `Username is Valid`;
+    // console.log(`Test Passed`);
   } else {
-    console.log(`Test Failed: ${username} not valid`);
+    feedback.textContent = `Username is not Valid`;
+    // console.log(`Test Failed: ${username} not valid`);
   }
 
   // Boolean value of result
