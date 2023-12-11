@@ -2,12 +2,14 @@ const form = document.querySelector(".signup-form");
 const username = document.querySelector("#username");
 
 form.addEventListener("submit", (e) => {
-  if (username.value.includes("@")) {
-    console.log(`${username.value} is not a valid username`);
-  } else if (username.value <= 0) {
-    console.log("No Input");
-    e.preventDefault();
-  } else {
-    console.log(`${username.value}`);
-  }
+  e.preventDefault();
+  console.log(username.value);
 });
+
+// Testing RegEx
+
+const newName = "Ernest";
+const pattern = /[a-zA-Z]{6,}/;
+
+let result = pattern.test(newName);
+console.log(result);
