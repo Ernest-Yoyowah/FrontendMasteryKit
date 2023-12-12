@@ -1,6 +1,7 @@
 const correctAnswers = ["A", "B", "A", "B"];
-
 const form = document.querySelector(".quiz-form");
+const result = document.querySelector(".result");
+const grade = document.querySelector(".grade");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -20,5 +21,7 @@ form.addEventListener("submit", (e) => {
     }
   });
 
-  console.log(score);
+  // display results
+  grade.innerHTML = `${score}%`;
+  result.setAttribute("class", "d-flex");
 });
