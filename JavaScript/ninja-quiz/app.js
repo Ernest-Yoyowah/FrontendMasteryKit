@@ -23,5 +23,5 @@ form.addEventListener("submit", (e) => {
 
   // display results
   result.querySelector("span").textContent = `${score}%`;
-  result.setAttribute("class", "d-flex");
+  result.classList.remove("d-none");
 });
