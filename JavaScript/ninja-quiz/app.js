@@ -22,6 +22,6 @@ form.addEventListener("submit", (e) => {
   });
 
   // display results
-  grade.innerHTML = `${score}%`;
+  result.querySelector("span").textContent = `${score}%`;
   result.setAttribute("class", "d-flex");
 });
