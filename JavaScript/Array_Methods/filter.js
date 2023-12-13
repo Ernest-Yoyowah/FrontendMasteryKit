@@ -4,5 +4,18 @@ const filterdScores = scores.filter((score) => {
   return score > 10;
 });
 
-console.log(`Original scores\n${scores}\n`);
-console.log(`Filtered scores\n${filterdScores}`);
+// console.log(`Original scores\n${scores}\n`);
+// console.log(`Filtered scores\n${filterdScores}`);
+
+const users = [
+  { name: "Ernest", premium: true },
+  { name: "Nii", premium: true },
+  { name: "Mike", premium: false },
+  { name: "Jhn", premium: false },
+];
+
+const premiumUsers = users.filter((user) => {
+  return user.premium;
+});
+
+console.log(premiumUsers);
