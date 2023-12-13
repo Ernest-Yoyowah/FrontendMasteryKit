@@ -4,4 +4,5 @@ const filterdScores = scores.filter((score) => {
   return score > 10;
 });
 
-console.log(filterdScores);
+console.log(`Original scores\n${scores}\n`);
+console.log(`Filtered scores\n${filterdScores}`);
