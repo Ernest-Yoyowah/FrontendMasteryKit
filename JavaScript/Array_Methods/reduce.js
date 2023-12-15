@@ -4,6 +4,7 @@ const scores = [10, 20, 60, 40, 50, 80, 25, 42];
 const totalScore = scores.reduce((acc, val) => acc + val);
 // console.log(totalScore);
 
+// number of elements over 50. should return 2
 const result = scores.reduce((acc, curr) => {
   if (curr > 50) {
     acc++;
@@ -14,6 +15,14 @@ const result = scores.reduce((acc, curr) => {
 // console.log(result);
 
 const goals = [
+  { player: "Ernest", goal: 50 },
+  { player: "Keyz", goal: 30 },
+  { player: "Ernest", goal: 70 },
+  { player: "Yoyowah", goal: 60 },
+  { player: "Ernest", goal: 50 },
+  { player: "Keyz", goal: 30 },
+  { player: "Ernest", goal: 70 },
+  { player: "Yoyowah", goal: 60 },
   { player: "Ernest", goal: 50 },
   { player: "Keyz", goal: 30 },
   { player: "Ernest", goal: 70 },
