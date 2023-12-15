@@ -23,14 +23,17 @@ const players = [
   { player: "Frank", goal: 60 },
 ];
 
-players.sort((a, b) => {
-  if (a.goal > b.goal) {
-    return -1;
-  } else if (b.goal > a.goal) {
-    return 1;
-  } else {
-    return 0;
-  }
-});
+// players.sort((a, b) => {
+//   if (a.goal > b.goal) {
+//     return -1;
+//   } else if (b.goal > a.goal) {
+//     return 1;
+//   } else {
+//     return 0;
+//   }
+// });
+
+// shorter way
+players.sort((a, b) => b.goal - a.goal);
 
 console.log(players);
