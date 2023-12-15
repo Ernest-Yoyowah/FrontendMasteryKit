@@ -14,12 +14,12 @@ const products = [
 
 // Method Chaining
 
-const filtered = products
+const promo = products
   .filter((product) => product.price > 20)
   .map((product) => {
-    return `the promo price of ${product.name} is $${product.price / 2}.00`;
+    return `promo price of ${product.name} is $${product.price / 2}.00`;
   });
 
-console.log(filtered);
+console.log(promo);
 
 // console.log(promos);
