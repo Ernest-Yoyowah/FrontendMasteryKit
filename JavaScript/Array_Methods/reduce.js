@@ -11,4 +11,22 @@ const result = scores.reduce((acc, curr) => {
   return acc;
 }, 0);
 
-console.log(result);
+// console.log(result);
+
+const goals = [
+  { player: "Ernest", goal: 50 },
+  { player: "Keyz", goal: 30 },
+  { player: "Ernest", goal: 70 },
+  { player: "Yoyowah", goal: 60 },
+];
+
+// we want to add the total goals for Ernest
+
+const ernestTotal = goals.reduce((acc, curr) => {
+  if (curr.player === "Ernest") {
+    acc += curr.goal;
+  }
+  return acc;
+}, 0);
+
+console.log(ernestTotal);
