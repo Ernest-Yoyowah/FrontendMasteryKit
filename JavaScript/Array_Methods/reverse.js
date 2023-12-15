@@ -3,7 +3,7 @@ const names = ["Ernest", "Nii", "Yoyowah", "Mike", "John", "Dan"];
 
 // reverses the array
 names.reverse();
-console.log(names);
+// console.log(names);
 
 //example 2 - sorting numbers in reverse
 
