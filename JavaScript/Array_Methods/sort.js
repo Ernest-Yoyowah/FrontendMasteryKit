@@ -33,7 +33,7 @@ const players = [
 //   }
 // });
 
-// shorter way
+// shorter way. compare logic(compare function)
 players.sort((a, b) => b.goal - a.goal);
 
 console.log(players);
