@@ -2,6 +2,15 @@
 
 function gradingStudents(grades) {
   // write your code here
+  let finalGrade = grades.map((grade) => {
+    if (grade >= 38 && grade % 5 >= 3) {
+      return (grade = Math.round(grade / 5) * 5);
+    } else {
+      return grade;
+    }
+  });
+
+  return finalGrade;
 }
 
 // Example usage:
