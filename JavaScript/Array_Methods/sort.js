@@ -3,7 +3,7 @@ const names = ["Ernest", "Nii", "Yoyowah", "Mike", "John", "Dan"];
 
 // in-buit to sort in alphabetical order automatically
 names.sort();
-console.log(names);
+// console.log(names);
 
 //example 2 - sorting numbers
 
