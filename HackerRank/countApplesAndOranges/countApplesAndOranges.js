@@ -1,5 +1,24 @@
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
   // write your code here
+  let appleCount = 0;
+  let orangeCount = 0;
+
+  for (let appleDistance of apples) {
+    const applePosition = a + appleDistance;
+    if (applePosition >= s && applePosition <= t) {
+      appleCount++;
+    }
+  }
+
+  for (let orangeDistance of oranges) {
+    const orangePosition = b + orangeDistance;
+    if (orangePosition >= s && orangePosition <= t) {
+      orangeCount++;
+    }
+  }
+
+  console.log(orangeCount);
+  console.log(appleCount);
 }
 
 // Example Usage:
