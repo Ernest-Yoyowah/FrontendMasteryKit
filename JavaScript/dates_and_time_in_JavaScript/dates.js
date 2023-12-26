@@ -16,3 +16,6 @@ console.log(`Seconds ${now.getSeconds()}`);
 
 // timestamps
 console.log(`Timestamp: ${now.getTime()}`);
+
+// date strings
+console.log(now.toDateString());
