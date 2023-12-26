@@ -7,5 +7,5 @@ console.log(diff);
 const mins = Math.round(diff / 1000 / 60);
 const hours = Math.round(mins / 60);
 
-console.log(mins);
+// console.log(mins);
 console.log(hours);
