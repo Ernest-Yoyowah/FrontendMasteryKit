@@ -13,3 +13,6 @@ console.log(`Day ${now.getDay()}`);
 console.log(`Hour ${now.getHours()}`);
 console.log(`Minutes ${now.getMinutes()}`);
 console.log(`Seconds ${now.getSeconds()}`);
+
+// timestamps
+console.log(`Timestamp: ${now.getTime()}`);
