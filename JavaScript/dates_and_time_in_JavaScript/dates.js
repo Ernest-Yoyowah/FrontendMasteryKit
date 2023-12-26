@@ -19,3 +19,7 @@ console.log(`Timestamp: ${now.getTime()}`);
 
 // date strings
 console.log(now.toDateString());
+
+// time strings
+console.log(now.toTimeString());
+console.log(now.toLocaleString());
