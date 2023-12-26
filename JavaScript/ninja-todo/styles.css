@@ -15,14 +15,6 @@ input[type="text"]:focus {
   background: #423a6f;
 }
 
-.todos span {
-  margin-right: auto;
-}
-
-.todos i {
-  margin-left: 10px;
-}
-
 .delete {
   cursor: pointer;
 }
