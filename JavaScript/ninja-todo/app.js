@@ -17,6 +17,7 @@ addForm.addEventListener("submit", (e) => {
 
   const todo = addForm.add.value.trim();
   if (todo.length) {
+    // checking if form input contain values
     generateTemplate(todo);
   }
 });
