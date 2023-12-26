@@ -16,6 +16,7 @@ addForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const todo = addForm.add.value.trim();
-
-  generateTemplate(todo);
+  if (todo.length) {
+    generateTemplate(todo);
+  }
 });
