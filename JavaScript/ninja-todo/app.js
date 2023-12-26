@@ -19,5 +19,7 @@ addForm.addEventListener("submit", (e) => {
   if (todo.length) {
     // checking if form input contain values
     generateTemplate(todo);
+
+    addForm.reset();
   }
 });
