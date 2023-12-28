@@ -7,12 +7,12 @@ making the code more expressive and reducing the need for repetitive boilerplate
 
 // Array destructuring
 const numbers = [1, 2, 3, 4, 5, 6];
-const [a, b, c] = numbers;
+const [a, b, c, ...rest] = numbers;
 
 // Object destructuring
 const person = { name: "John", age: 30 };
 const { name, age: personAge = 25 } = person;
 
 // Using destructuring
-console.log(a, b, c);
+console.log(a, b);
 console.log(name, personAge);
