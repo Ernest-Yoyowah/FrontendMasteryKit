@@ -8,6 +8,7 @@
 
 // GH₵
 
+// 1. Deposit some money
 const prompt = require("prompt-sync")();
 
 const deposit = () => {
@@ -23,6 +24,22 @@ const deposit = () => {
   }
 };
 
+// 2. Number of lines to bet on
+const getNumberOfLines = () => {
+  while (true) {
+    const lines = prompt("Enter the number of lines to bet on (1-3): ");
+    const numOfLines = parseFloat(lines);
+
+    if (isNaN(numOfLines) || numOfLines <= 0 || numOfLines > 3) {
+      console.log("Invalid number of lines, try again");
+    } else {
+      return numOfLines;
+    }
+  }
+};
+
 const depositAmount = deposit();
-Number(depositAmount);
 console.log(`Deposited Amount GH₵${depositAmount}.00`);
+
+const NumberOfLines = getNumberOfLines();
+console.log(`Bet Lines: ${NumberOfLines}`);
