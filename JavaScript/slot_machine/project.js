@@ -1,3 +1,7 @@
+// Slot Machine Simulator
+
+// Disclaimer: This is a simulation and does not involve real money gambling. I do not gamble and I do not support gambling activities neither.
+
 // 1. Deposit some money
 // 2. Number of lines to bet on
 // 3. Collect a bet amount
