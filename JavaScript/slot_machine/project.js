@@ -42,7 +42,7 @@ const getNumberOfLines = () => {
   }
 };
 
-const depositAmount = deposit();
+let balance = deposit();
 console.log(`Deposited Amount GH₵${depositAmount}.00`);
 
 const NumberOfLines = getNumberOfLines();
