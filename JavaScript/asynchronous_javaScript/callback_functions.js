@@ -13,7 +13,7 @@ const getTodos = (callback) => {
     }
   });
 
-  request.open("GET", "https://jsonplaceholder.typicode.com/to2dos");
+  request.open("GET", "https://jsonplaceholder.typicode.com/todos");
   request.send();
 };
 
