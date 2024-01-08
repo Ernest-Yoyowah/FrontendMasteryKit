@@ -20,4 +20,12 @@ const getTodos = (sources, callback) => {
 
 getTodos("todos/data1.json", (err, data) => {
   console.log(data);
+
+  getTodos("todos/data2.json", (err, data) => {
+    console.log(data);
+  });
+
+  getTodos("todos/data3.json", (err, data) => {
+    console.log(data);
+  });
 });
