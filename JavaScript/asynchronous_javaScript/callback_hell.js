@@ -19,25 +19,5 @@ const getTodos = (sources, callback) => {
 };
 
 getTodos("todos/data1.json", (err, data) => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(data);
-  }
-});
-
-getTodos("todos/data2.json", (err, data) => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(data);
-  }
-});
-
-getTodos("todos/data3.json", (err, data) => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(data);
-  }
+  console.log(data);
 });
