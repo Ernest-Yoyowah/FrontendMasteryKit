@@ -10,7 +10,7 @@ const getTodos = (sources, callback) => {
       callback(undefined, data);
     } else if (request.readyState === 4) {
       //   console.log(`Response Status: ${request.status}`);
-      callback(`Response Status: ${request.status}`, undefined);
+      callback(`Response Status: ${request.statusText}`, undefined);
     }
   });
 
