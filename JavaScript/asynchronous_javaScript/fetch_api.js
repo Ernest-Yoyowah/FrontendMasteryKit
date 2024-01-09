@@ -1,8 +1,7 @@
 // fetch api
 
-fetch("todos/data1.json")
+fetch("todos/data3.json")
   .then((response) => {
-    // console.log(response);
     return response.json();
   })
   .then((data) => {
