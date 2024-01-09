@@ -1,7 +1,13 @@
 // async and await
 
 const getTodos = async () => {
-  const response = await fetch("todos/data2.json");
+  const response = await fetch("todos/kdata2.json");
+
+  if (response.status !== 200) {
+    throw new Error(
+      `Response Status: ${response.status} Status Message: ${response.statusText}`
+    );
+  }
   const data = await response.json();
 
   return data;
@@ -12,5 +18,5 @@ getTodos()
     console.log(data);
   })
   .catch((err) => {
-    console.log(err);
+    console.log(err.message);
   });
