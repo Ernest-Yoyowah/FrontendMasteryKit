@@ -4,15 +4,23 @@ const getData = () => {
   return new Promise((resolve, reject) => {
     // Fetch Data
     resolve("Data fetched");
-    reject("some err");
+    // reject("some err");
   });
 };
 
-getData().then(
-  (data) => {
+// getData().then(
+//   (data) => {
+//     console.log(data);
+//   },
+//   (err) => {
+//     console.log(err);
+//   }
+// );
+
+getData()
+  .then((data) => {
     console.log(data);
-  },
-  (err) => {
+  })
+  .catch((err) => {
     console.log(err);
-  }
-);
+  });
