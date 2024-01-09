@@ -12,7 +12,7 @@ const getWeather = async (id) => {
   }
   const data = await response.json();
 
-  return data;
+  return data[0];
 };
 
 // City information
@@ -29,18 +29,19 @@ const getCity = async (city) => {
   return data[0];
 };
 
-// getCity("accra")
+getCity("manchester")
+  .then((data) => {
+    return getWeather(data.Key);
+  })
+  .then((data) => console.log(data))
+  .catch((err) => {
+    console.log(err.message);
+  });
+
+// getWeather("178551")
 //   .then((data) => {
 //     console.log(data);
 //   })
 //   .catch((err) => {
 //     console.log(err.message);
 //   });
-
-getWeather("178551")
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((err) => {
-    console.log(err.message);
-  });
