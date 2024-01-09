@@ -37,11 +37,3 @@ getCity("manchester")
   .catch((err) => {
     console.log(err.message);
   });
-
-// getWeather("178551")
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((err) => {
-//     console.log(err.message);
-//   });
