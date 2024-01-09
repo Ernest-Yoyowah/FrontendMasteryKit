@@ -20,7 +20,15 @@ const getTodos = (sources) => {
 
 getTodos("todos/data1.json")
   .then((data) => {
-    console.log(data);
+    console.log(`promise 1 resolved`, data);
+    return getTodos("todos/data2.json");
+  })
+  .then((data) => {
+    console.log(`promise 2 resolved`, data);
+    return getTodos("todos/data3.json");
+  })
+  .then((data) => {
+    console.log(`promise 3 resolved`, data);
   })
   .catch((err) => {
     console.log(err);
