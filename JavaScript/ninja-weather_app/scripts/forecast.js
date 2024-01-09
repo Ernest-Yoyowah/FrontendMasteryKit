@@ -5,9 +5,18 @@ const getCity = async (city) => {
   const query = `?apikey=${key}&q=${city}`;
 
   const response = await fetch(base + query);
+  if (response.status !== 200) {
+    throw new Error(response.statusText);
+  }
   const data = await response.json();
 
-  console.log(data[0]);
+  return data[0];
 };
 
-getCity("manchester");
+getCity("accra")
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    console.log(err.message);
+  });
