@@ -14,6 +14,11 @@ const updateUI = (data) => {
         <span>${weather.Temperature.Metric.Value}</span>
         <span>&deg;C</span>
     </div>`;
+
+  // remove d-none class if present
+  if (card.classList.contains("d-none")) {
+    card.classList.remove("d-none");
+  }
 };
 
 const updateCity = async (city) => {
