@@ -47,6 +47,9 @@ cityForm.addEventListener("submit", (e) => {
 
   // update UI with new city
   updateCity(city)
-    .then((data) => updateUI(data))
+    .then((data) => {
+      // console.log(data);
+      updateUI(data);
+    })
     .catch((err) => console.log(err));
 });
