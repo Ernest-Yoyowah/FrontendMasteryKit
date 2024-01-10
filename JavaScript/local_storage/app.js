@@ -7,5 +7,12 @@ let name = localStorage.getItem("name");
 
 // updating data in local storage
 localStorage.setItem("name", "Yoyowah");
-name = localStorage.getItem("name");
-console.log(name);
+localStorage.job = "Senior Systems Engineer";
+
+job = localStorage.getItem("job");
+console.log(job);
+
+// deleting data from local storage
+localStorage.removeItem("name"); // deleting individual data
+
+localStorage.clear(); // deleting all data
