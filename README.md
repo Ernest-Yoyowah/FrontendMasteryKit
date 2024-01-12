@@ -10,38 +10,6 @@ Welcome to my Frontend Mastery Kit repository! This collection showcases my solu
 - [Notes](/Notes)
 - [Contact](#Contact)
 
-## FizzBuzz
-
-- **Solution:** [FizzBuzz.js](/FizzBuzz/FizzBuzz.js)
-- **Description:** Classic FizzBuzz problem implementation.
-
-## LeetCode
-
-- **Two Sum**
-
-  - **Solution:** [two_sum.js](/LeetCode/TwoSum/two_sum.js)
-  - **Description:** Finding two numbers in an array that add up to a specific target value. Implementation in JavaScript with a detailed explanation.
-
-- **Unit Conversion**
-  - **Solution:** [convert.js](/LeetCode/UnitConversion/convert.js)
-  - **Description:** Converting units of measurement with a JavaScript solution and a comprehensive explanation.
-
-...
-
-## HackerRank
-
-- **Big Sum**
-
-  - **Solution:** [bigSum.js](/HackerRank/BigSum/bigSum.js)
-  - **Description:** Detailed explanation of the problem and my approach.
-
-- **BirthdayCakeCandles**
-
-  - **Solution:** [birthdayCakeCandles.js](/HackerRank/BirthdayCakeCandles/birthdayCakeCandles.js)
-  - **Description:** Detailed explanation of the problem and my approach.
-
-- ...
-
 ## Notes
 
 - [DataStructures.md](/Notes/DataStructures.md): Summary of important data structures.
