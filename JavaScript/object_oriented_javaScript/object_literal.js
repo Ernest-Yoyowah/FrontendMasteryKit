@@ -4,10 +4,10 @@ const student = {
   program: "Software Engineering",
   program_type: "BSc.",
   gender: "Male",
-  year: "Second Year",
+  year: "2nd Year",
   aboutMessage() {
     console.log(
-      `${this.name} is a ${this.program_type} ${this.program} student in his ${this.year} in collge`
+      `${this.name} is a ${this.program_type} ${this.program} student in his ${this.year} in college`
     );
   },
 };
