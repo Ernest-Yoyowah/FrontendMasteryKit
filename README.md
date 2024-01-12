@@ -1,6 +1,6 @@
-# Coding Interview Preparation
+# Frontend Mastery Kit
 
-Welcome to my coding interview preparation repository! This repository is a collection of my solutions to coding interview questions and challenges. It's a showcase of my dedication to problem-solving and my commitment to improving my coding skills.
+Welcome to my Frontend Mastery Kit repository! This collection showcases my solutions to various coding challenges and problems, reflecting my dedication to problem-solving and continual improvement of my coding skills.
 
 ## Overview
 
@@ -20,11 +20,11 @@ Welcome to my coding interview preparation repository! This repository is a coll
 - **Two Sum**
 
   - **Solution:** [two_sum.js](/LeetCode/TwoSum/two_sum.js)
-  - **Description:** This challenge involves finding two numbers in an array that add up to a specific target value. My solution is implemented in JavaScript, and I've provided a detailed explanation of my approach.
+  - **Description:** Finding two numbers in an array that add up to a specific target value. Implementation in JavaScript with a detailed explanation.
 
 - **Unit Conversion**
   - **Solution:** [convert.js](/LeetCode/UnitConversion/convert.js)
-  - **Description:** In this problem, the task is to convert units of measurement. I've provided a JavaScript solution and a comprehensive explanation of the problem and my approach.
+  - **Description:** Converting units of measurement with a JavaScript solution and a comprehensive explanation.
 
 ...
 
@@ -54,4 +54,4 @@ Welcome to my coding interview preparation repository! This repository is a coll
 
 Feel free to reach out if you have any questions, suggestions, or feedback about my solutions or approach. You can contact me at [ernestniiyoyowah@gmail.com](mailto:ernestniiyoyowah@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/ernestyoyowah)
 
-Thank you for visiting my repository and exploring my coding journey!
+Thank you for exploring my Frontend Mastery Kit and following along on my coding journey!
