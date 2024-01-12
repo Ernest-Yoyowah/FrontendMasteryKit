@@ -4,9 +4,9 @@ Welcome to my Frontend Mastery Kit repository! This collection showcases my solu
 
 ## Overview
 
+- [JavaScript](/JavaScript)
 - [HackerRank](/HackerRank)
 - [LeetCode](/LeetCode)
-- [JavaScript](/JavaScript)
 - [Notes](/Notes)
 - [Contact](#Contact)
 
