@@ -28,3 +28,8 @@ User1.about();
 const User2 = new User("Nii", "nii@gmail.com", "Front-End Engineer");
 // Call the about method for the second user
 User2.about();
+
+// the 'new' keyword
+// 1 - it creates a new empty object {}
+// 2 - it binds the value of 'this' to the new empty object
+// 3 - it calls the constructor function to 'build' the object
