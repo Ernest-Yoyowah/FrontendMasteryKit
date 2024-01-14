@@ -1,4 +1,4 @@
-class student {
+class Student {
   constructor(name, phone, email, programme, program_type, gender, level) {
     this.name = name;
     this.phone = phone;
@@ -23,7 +23,10 @@ class student {
   }
 }
 
-const student_1 = new student(
+// Inheriting properties from student class
+class Admin extends Student {}
+
+const student_1 = new Admin(
   "Ernest Nii Okpoti Yoyowah",
   "0506923484",
   "ernestniiyoyowah@gmail.com",
@@ -32,7 +35,5 @@ const student_1 = new student(
   "Male",
   "200"
 );
-// student_1.about();
-
-// method chaining
+console.log(student_1);
 student_1.about().goal();
