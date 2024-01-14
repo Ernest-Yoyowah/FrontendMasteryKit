@@ -16,7 +16,7 @@ class student {
   }
   goal() {
     console.log(
-      `currently seeking new job opportunities. Contact Phone: ${this.phone} Email: ${this.email}`
+      `currently seeking new job opportunities. Phone: ${this.phone} Email: ${this.email}`
     );
   }
 }
