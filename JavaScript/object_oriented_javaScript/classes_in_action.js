@@ -17,7 +17,7 @@ class student {
 }
 
 const student_1 = new student(
-  "Ernest",
+  "Ernest Nii Okpoti Yoyowah",
   "0506923484",
   "ernestniiyoyowah@gmail.com",
   "Software Engineering",
