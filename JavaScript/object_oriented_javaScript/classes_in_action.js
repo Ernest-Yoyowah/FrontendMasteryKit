@@ -13,6 +13,7 @@ class student {
     console.log(
       `${this.name} is a ${this.program_type} ${this.programme} student in level ${this.level}.`
     );
+    return this;
   }
   goal() {
     console.log(
@@ -31,4 +32,6 @@ const student_1 = new student(
   "200"
 );
 // student_1.about();
-student_1.goal();
+
+// method chaining
+student_1.about().goal();
