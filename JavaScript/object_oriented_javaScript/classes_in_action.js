@@ -8,12 +8,6 @@ class student {
     this.gender = gender;
     this.level = level;
   }
-
-  about() {
-    console.log(
-      `${this.name} is a ${this.program_type} ${this.programme} student in level ${this.level}. currently seeking new job opportunities. Contact Phone: ${this.phone} Email: ${this.email}`
-    );
-  }
 }
 
 const student_1 = new student(
@@ -25,6 +19,5 @@ const student_1 = new student(
   "Male",
   "200"
 );
-// student_1.about();
 
 console.log(student_1);
