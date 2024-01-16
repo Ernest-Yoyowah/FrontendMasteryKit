@@ -23,6 +23,7 @@ function Admin(username, email, phone, title) {
   this.titel = title;
 }
 
+// prototype chain for inheritance Set up
 Admin.prototype = Object.create(User.prototype);
 
 const User_1 = new User("Ernest", "ernestniiyoyowah@gmail.com", "0506923484");
