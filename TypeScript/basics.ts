@@ -65,3 +65,8 @@ address = 2.54 - 255;
 
 let fullName: string | string[] = "Ernest";
 fullName = ["Ernest", "Nii", "Yoyowah"];
+
+// Functions & types
+const addTwoNums = (num1: number, num2: number): number => num1 + num2;
+const result = addTwoNums(8, 5);
+console.log(result);
