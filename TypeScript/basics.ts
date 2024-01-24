@@ -42,3 +42,6 @@ let course = "Data Structures and Algorithm";
 let address: string | number = "GA-255";
 address = 2.54 - 255;
 // console.log(person.name);
+
+let fullName: string | string[] = "Ernest";
+fullName = ["Ernest", "Nii", "Yoyowah"];
