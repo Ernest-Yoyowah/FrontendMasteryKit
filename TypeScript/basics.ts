@@ -41,3 +41,4 @@ let course = "Data Structures and Algorithm";
 // Union Types
 let address: string | number = "GA-255";
 address = 2.54 - 255;
+// console.log(person.name);
