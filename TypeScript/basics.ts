@@ -33,3 +33,7 @@ person = {
 let students: {}[];
 
 students = ["Ernest", "Mickey", "Omar"];
+
+// Type Inference
+let course = "Data Structures and Algorithm";
+// course = 14 // will throw an error
