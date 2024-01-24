@@ -27,3 +27,9 @@ person = {
   gender: "male",
   role: "Front-End Developer",
 };
+
+// To Store an object with array
+
+let students: {}[];
+
+students = ["Ernest", "Mickey", "Omar"];
