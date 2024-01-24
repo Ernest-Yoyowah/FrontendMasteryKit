@@ -3,6 +3,8 @@ const insertAtBeginning = <T>(array: T[], value: T) => {
   return newArray;
 };
 const demoArray = [1, 2, 3, 4, 5];
+const demoArray_2 = ["Ernest", "Nii", "Okpoti", "Yoyowah"];
 
 const updatedArray = insertAtBeginning(demoArray, 4);
-console.log(updatedArray);
+const updatedArray_2 = insertAtBeginning(demoArray_2, "Emmanuel");
+console.log(updatedArray_2);
