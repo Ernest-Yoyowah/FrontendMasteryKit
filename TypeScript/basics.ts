@@ -14,12 +14,16 @@ isValid = true;
 // More Complex types: Arrays, Objects
 const nums: number[] = [1, 2, 3, 4, 5, 6];
 
-let person: {
+// Type alias
+
+type Person_obj = {
   name: string;
   age: number;
   gender: string;
   role: string;
 };
+
+let person: Person_obj;
 
 person = {
   name: "Ernest",
