@@ -69,4 +69,16 @@ fullName = ["Ernest", "Nii", "Yoyowah"];
 // Functions & types
 const addTwoNums = (num1: number, num2: number) => num1 + num2;
 const result = addTwoNums(8, 5);
-console.log(result);
+// console.log(result);
+
+interface Him {
+  hisName: string;
+  hisAge: number;
+}
+
+const aboutHim: Him = {
+  hisName: "Ernest",
+  hisAge: 22,
+};
+
+// console.log(aboutHim.hisAge);
