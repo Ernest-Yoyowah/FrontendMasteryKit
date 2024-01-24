@@ -37,3 +37,7 @@ students = ["Ernest", "Mickey", "Omar"];
 // Type Inference
 let course = "Data Structures and Algorithm";
 // course = 14 // will throw an error
+
+// Union Types
+let address: string | number = "GA-255";
+address = 2.54 - 255;
