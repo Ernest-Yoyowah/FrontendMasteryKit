@@ -30,9 +30,25 @@ person = {
 
 // To Store an object with array
 
-let students: {}[];
+let students: {
+  names: string[];
+  scores: number[];
+  about: {
+    department: string;
+    programme: string;
+    cohort: number;
+  };
+};
 
-students = ["Ernest", "Mickey", "Omar"];
+students = {
+  names: ["Ernest", "Mickey", "Omar"],
+  scores: [84, 85, 86],
+  about: {
+    department: "Computer Science Department",
+    programme: "BSc. Software Engineering",
+    cohort: 2022 / 2023,
+  },
+};
 
 // Type Inference
 let course = "Data Structures and Algorithm";
