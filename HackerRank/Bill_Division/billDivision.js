@@ -13,7 +13,7 @@ function bonAppetit(bill, k, b) {
 }
 
 // Example usage:
-const n = 4;
+
 const k = 1;
 const bill = [3, 10, 2, 9];
 const b = 12;
