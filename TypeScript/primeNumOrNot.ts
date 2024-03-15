@@ -18,19 +18,21 @@ Steps:
  */
 
 const isPirmeNumber = (input: number) => {
-  if (input < 2) {
-    return false;
+  //check if prime
+  if (input <= 1) {
+    console.log("Not prime");
+    return;
   }
 
-  for (let i = 2; i <= Math.sqrt(input); i++) {
+  for (let i = 2; i < input; i++) {
     if (input % i === 0) {
-      console.log("Not Prime Number");
+      console.log("Not prime");
+      return;
     }
   }
 
   console.log("Prime Number");
 };
 
-console.log(isPirmeNumber(1));
-console.log(isPirmeNumber(5));
-console.log(isPirmeNumber(4));
+isPirmeNumber(1);
+isPirmeNumber(7);
