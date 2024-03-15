@@ -35,15 +35,27 @@ Steps:
 2. Otherwise, return the product of the input and the factorial of input - 1 (recursive case).
 */
 
-const factorial = (input: number): number => {
-  // Base case: If input is 0 or 1, return 1
-  if (input === 0 || input === 1) {
-    return 1;
-  }
+// const factorial = (input: number): number => {
+//   // Base case: If input is 0 or 1, return 1
+//   if (input === 0 || input === 1) {
+//     return 1;
+//   }
 
-  // Recursive case: Return the product of input and factorial of input - 1
-  return input * factorial(input - 1);
+//   // Recursive case: Return the product of input and factorial of input - 1
+//   return input * factorial(input - 1);
+// };
+
+// // Example usage:
+// console.log(factorial(5)); // Output: 120 (5! = 5 * 4 * 3 * 2 * 1 = 120)
+
+const factorial = (n: number) => {
+  let factorial = 1;
+
+  for (let i = 2; i <= n; i++) {
+    factorial *= i;
+  }
+  return factorial;
 };
 
-// Example usage:
-console.log(factorial(5)); // Output: 120 (5! = 5 * 4 * 3 * 2 * 1 = 120)
+let out = factorial(5);
+console.log(out);
