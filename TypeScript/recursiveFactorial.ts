@@ -6,4 +6,4 @@ const recursiveFactorial = (n: number): number => {
   return n * recursiveFactorial(n - 1);
 };
 
-console.log(recursiveFactorial(1));
+console.log(recursiveFactorial(7));
