@@ -7,3 +7,5 @@ const recursiveFactorial = (n: number): number => {
 };
 
 console.log(recursiveFactorial(7));
+
+// Big O = O(n)
