@@ -27,3 +27,5 @@ function search(
 
 const nums: number[] = [-5, 2, 4, 6, 10];
 console.log(recursiveBinarySearch(nums, 2));
+
+// Big O = O(logn)
