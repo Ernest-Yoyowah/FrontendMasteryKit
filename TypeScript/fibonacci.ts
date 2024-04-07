@@ -10,3 +10,5 @@ const fibonacciSequence = (num: number) => {
 const tialOutput = fibonacciSequence(5);
 console.log(tialOutput);
 let num = 5; // [0, 1, 1, 2, 3];
+
+// Big O = O(n)
