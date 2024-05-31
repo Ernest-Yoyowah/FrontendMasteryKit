@@ -1,5 +1,4 @@
-const arraySum = (arr: number[]): number =>
-  arr.reduce((acc, val) => acc + val, 0);
+const arraySum = (arr: number[]): number => arr.reduce((acc, val) => acc + val);
 
 console.log(arraySum([1, 2, 3, 4, 5])); // Output: 15
 console.log(arraySum([])); // Output: 0
