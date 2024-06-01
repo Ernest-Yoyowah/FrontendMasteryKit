@@ -39,4 +39,4 @@ const binarySearch = (arr: number[], target: number): number => {
 // Example usage:
 const arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19];
 const target = 1;
-console.log("Index of", target, ":", binarySearch(arr, target)); // Output: 6 (Index of 13 in the array)
+console.log("Index of", target, ":", binarySearch(arr, target));
