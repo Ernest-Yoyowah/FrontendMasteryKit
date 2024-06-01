@@ -19,18 +19,17 @@ Steps:
 */
 
 const binarySearch = (arr: number[], target: number): number => {
-  let leftIndex = 0;
-  let rightIndex = arr.length - 1;
+  let leftIdx = 0;
+  let rightIdx = arr.length - 1;
 
-  while (leftIndex <= rightIndex) {
-    let midIndex = Math.floor((leftIndex + rightIndex) / 2);
-
-    if (target === arr[midIndex]) {
-      return midIndex;
-    } else if (target > arr[midIndex]) {
-      leftIndex = midIndex + 1;
+  while (leftIdx <= rightIdx) {
+    let midIdx = Math.floor((leftIdx + rightIdx) / 2);
+    if (target === arr[midIdx]) {
+      return midIdx;
+    } else if (target > arr[midIdx]) {
+      leftIdx = midIdx + 1;
     } else {
-      rightIndex = midIndex - 1;
+      rightIdx = midIdx - 1;
     }
   }
 
@@ -39,5 +38,5 @@ const binarySearch = (arr: number[], target: number): number => {
 
 // Example usage:
 const arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19];
-const target = 100;
+const target = 1;
 console.log("Index of", target, ":", binarySearch(arr, target)); // Output: 6 (Index of 13 in the array)
