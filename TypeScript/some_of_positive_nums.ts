@@ -1,5 +1,5 @@
 let sumOfPositive: number = 0;
-const testArray_1 = [3, -2, 7, -5, 10];
+const testArray_2 = [3, -2, 7, -5, 10];
 
 const sumOfPositiveNum = (allNums: number[]) => {
   for (let i = 0; i < allNums.length; i++) {
@@ -10,5 +10,5 @@ const sumOfPositiveNum = (allNums: number[]) => {
   return sumOfPositive;
 };
 
-const resultOfPosiveNumbers = sumOfPositiveNum(testArray_1);
+const resultOfPosiveNumbers = sumOfPositiveNum(testArray_2);
 console.log(resultOfPosiveNumbers);
