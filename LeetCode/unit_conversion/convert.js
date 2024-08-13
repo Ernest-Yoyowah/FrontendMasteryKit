@@ -11,7 +11,7 @@ const convertUnit = () => {
   const inch_per_feet = 12;
 
   // declare variables
-  var feet, cm, inch;
+  let feet, cm, inch;
 
   // accept input for feet
   rl.question("Enter Lenght(feet): ", (feetInput) => {
