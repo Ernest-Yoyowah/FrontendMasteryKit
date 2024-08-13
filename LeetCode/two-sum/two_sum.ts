@@ -28,8 +28,4 @@ const twoSum = (nums: number[], target: number): number[] => {
     numToIndex.set(num, i);
   }
 
-  return [];
-};
-
-// Example usage
-console.log(twoSum([2, 7, 11, 15], 9)); // Output: [0, 1]
+  return [
