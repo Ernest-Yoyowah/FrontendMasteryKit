@@ -1,4 +1,4 @@
-let sumOfPositive = 0;
+let sumOfPositive: number = 0;
 const testArray_1 = [3, -2, 7, -5, 10];
 
 const sumOfPositiveNum = (allNums: number[]) => {
