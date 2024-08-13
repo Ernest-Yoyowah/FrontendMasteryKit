@@ -1,4 +1,4 @@
-let sum = 0;
+let sum: number = 0;
 const positiveNumbersSum = (arr: number[]) => {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > 0) {
