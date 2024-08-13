@@ -1,5 +1,5 @@
 let sum: number = 0;
-const positiveNumbersSum = (arr: number[]) => {
+const positiveNumbersSum = (arr: number[]): number => {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > 0) {
       sum += arr[i];
