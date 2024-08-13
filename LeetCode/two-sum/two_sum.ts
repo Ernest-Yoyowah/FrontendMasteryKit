@@ -15,7 +15,7 @@
 */
 
 const twoSum = (nums: number[], target: number): number[] => {
-  const numToIndex = new Map();
+  const numToIndex: Map<number, number> = new Map();
 
   for (let i = 0; i < nums.length; i++) {
     const num = nums[i];
