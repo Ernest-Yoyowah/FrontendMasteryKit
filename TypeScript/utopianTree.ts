@@ -12,7 +12,7 @@ if n = 5
 
 */
 
-let growthCycles = 1;
+let growthCycles: number = 1;
 
 const utoPianTree = (numberOfGrowthCycle: number): number => {
   for (let i = 0; i < numberOfGrowthCycle; i++) {
