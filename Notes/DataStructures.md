@@ -44,6 +44,3 @@ Queues follow the First-In-First-Out (FIFO) principle.
   - Enqueue: O(1)
   - Dequeue: O(1)
   - Peek: O(1)
-
-
-
